@@ -67,6 +67,7 @@ public class HotelApp {
 		WebElement orderno = d.findElement(By.id("order_no"));
 		String order = orderno.getAttribute("value");
 		System.out.println(order);
+		driver.close();
 
 
 	}
